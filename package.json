@@ -16,7 +16,8 @@
     "train": "botfuel-train"
   },
   "dependencies": {
-    "botfuel-dialog": "^8.0.3"
+    "botfuel-dialog": "^8.0.3",
+    "request-promise-native": "^1.0.5"
   },
   "devDependencies": {
     "eslint": "3.19.0",
