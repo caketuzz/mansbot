@@ -28,7 +28,7 @@ class MatchtodayDialog extends PromptDialog {
 MatchtodayDialog.params = {
     namespace: 'matchtoday',
     entities: {
-        time: {
+        date: {
             dim: 'time',
         }
     }
