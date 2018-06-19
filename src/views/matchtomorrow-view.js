@@ -1,13 +1,13 @@
 const { PromptView, BotTextMessage } = require('botfuel-dialog');
 
-class MatchtodayView extends PromptView {
+class MatchtomorrowView extends PromptView {
   render(userMessage, { matchedEntities, missingEntities, matchData }) {
     const messages = [];
     var matchArray = matchData;
     // JSON.parse(matchData);
     var msg;
 
-    messages.push(new BotTextMessage("les matchs d'aujourd'hui sont les suivants:"));
+    messages.push(new BotTextMessage("les matchs de demain seront les suivants:"));
     for (var c of matchArray) {
       console.log(matchArray[0].home_team.country);
 
@@ -37,4 +37,4 @@ class MatchtodayView extends PromptView {
   }
 }
 
-module.exports = MatchtodayView;
+module.exports = MatchtomorrowView;
