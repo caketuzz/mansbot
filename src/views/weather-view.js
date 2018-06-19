@@ -108,7 +108,7 @@ const {
           messages.push(new BotTextMessage(`${description}, ${minTemp} - ${maxTemp} degrés Celsius`));
           if (Object.keys(images).includes(description)) {
             messages.push(
-              new BotImageMessage(WebAdapter.getStaticUrl(`images/${images[description]}`)),
+              new BotImageMessage(WebAdapter.getStaticUrl('images/${images[description]}')),
             );
           }
         }
