@@ -9,7 +9,6 @@ class MatchtodayView extends PromptView {
 
     messages.push(new BotTextMessage("les matchs d'aujourd'hui sont les suivants:"));
     for (var c of matchArray) {
-      console.log(matchArray[0].home_team.country);
 
       switch (c.status) {
         case "completed":
