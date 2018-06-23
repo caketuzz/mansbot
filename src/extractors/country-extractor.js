@@ -16,11 +16,10 @@
 
 const { WsExtractor } = require('botfuel-dialog');
 
-class CityExtractor extends WsExtractor {}
+class CountryExtractor extends WsExtractor {}
 
-CityExtractor.params = {
-  dimensions: ['city'],
+CountryExtractor.params = {
+  dimensions: ['country'],
 };
 
-module.exports = CityExtractor;
-
+module.exports = CountryExtractor;
