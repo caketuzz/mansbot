@@ -30,10 +30,10 @@ class MatchdetailView extends PromptView {
         };
         messages.push(
           new BotTextMessage(
-            `le match s'est joué le ${date.toLocaleDateString(
+            `le match entre ${matchData.home_team_country} et ${matchData.away_team_country} s'est joué le ${date.toLocaleDateString(
               "fr-FR",
               options
-            )}`
+            )} et s'est terminé sur le score de ${matchData.home_team.goals} à ${matchData.away_team.goals} .`
           )
         );
       }
