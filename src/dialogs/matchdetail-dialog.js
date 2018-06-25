@@ -68,7 +68,7 @@ class MatchdetailDialog extends PromptDialog {
         for (var m of allMatches){
             //console.log("match : "+m.home_team.code+" vs " + m.away_team.code);
             if ( (m.home_team.code === country1 && m.away_team.code === country2) ||
-                (m.home_team.code === country2 && m.away_team === country1) ) {
+                (m.home_team.code === country2 && m.away_team.code === country1) ) {
                   //console.log("match trouvé: "+m);
                   const matchData = m;
                 return { matchData } ;
