@@ -9,7 +9,6 @@ class MatchdetailView extends PromptView {
     const messages = [];
     let msg;
 
-    console.log("matchview: " + matchData.datetime);
     if (matchData == null) {
       messages.push(
         new BotTextMessage("aucun match n'a été trouvé entre ces deux équipes")
