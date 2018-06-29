@@ -25,7 +25,7 @@ const dict = {
   'Arabie saoudite': 'KSA',
   'Iran': 'IRN',
   'Espagne': 'ESP',
-  'Danmark': 'DAN',
+  'Danmark': 'DEN',
   'Australie': 'AUS',
   'France': 'FRA',
   'Pérou': 'PER',
