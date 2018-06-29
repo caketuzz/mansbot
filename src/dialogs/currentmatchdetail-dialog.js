@@ -19,7 +19,7 @@ class CurrentmatchdetailDialog extends PromptDialog {
 
         const requestResult = await request(options);
         const curMatchData = requestResult;
-        return  curMatchData ;
+        return { curMatchData };
     }
 
 
