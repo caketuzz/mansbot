@@ -1,7 +1,7 @@
 module.exports = {
   adapter: {
-    name: 'botfuel',
+    name: 'synchronous',
     //name: 'shell',
   },
  // logger: 'debug',
-};
+}; 
