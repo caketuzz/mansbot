@@ -16,13 +16,14 @@ const STATIC_BASE_URL = url.resolve(BOT_URL, 'static/');
 const TEMPLATE_BASE_URL = url.resolve(BOT_URL, 'templates/');
 
 
-const botfuelAdapter = new BotfuelAdapter();
+let botfuelAdapter = null;
 
 class SynchronousAdapter extends Adapter {
   
   async run() {
     logger.debug('run');
     const app = express();
+    botfuelAdapter = new BotfuelAdapter(this.bot);
     app.use(bodyParser.json());
     app.post('/synchook', (req, res) => this.handleRequest(req, res));
     app.post('/webhook', (req, res) => this.handleWebchatRequest(req, res));
