@@ -7,7 +7,7 @@ const url = require('url');
 const { Adapter } = require('botfuel-dialog');
 const { BotfuelAdapter } = require('botfuel-dialog');
 const bodyParser = require('body-parser');
-const {alexaVerifier} = require('alexa-verifier'); 
+const alexaVerifier = require('alexa-verifier'); 
 
 // absolute urls to static and template folders
 const PORT = process.env.PORT || process.env.BOTFUEL_ADAPTER_PORT || 5000;
