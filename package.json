@@ -16,6 +16,7 @@
     "train": "botfuel-train"
   },
   "dependencies": {
+    "alexa-verifier": "^2.0.1",
     "ask-sdk": "^2.0.7",
     "botfuel-dialog": "^8.0.3",
     "request-promise-native": "^1.0.5"
