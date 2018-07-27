@@ -1,3 +1,16 @@
+```HTML
+
+<script src="https://cdn.jsdelivr.net/npm/botfuel-webchat-client@3.13.8"></script>
+  <script>
+    BotfuelWebChat.init({
+      appToken: '1409617777135',
+      size: { width: 500, height: 600 },
+      startOpen: true,
+      startFullScreen: false
+    });
+  </script>
+```
+
 # botfuel-sample-starter
 
 This sample bot is used in [**Getting Started**](https://docs.botfuel.io/dialog/tutorials/getting-started).
