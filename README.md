@@ -1,4 +1,3 @@
-```HTML
 
 <script src="https://cdn.jsdelivr.net/npm/botfuel-webchat-client@3.13.8"></script>
   <script>
@@ -8,8 +7,7 @@
       startOpen: true,
       startFullScreen: false
     });
-  </script>
-```
+
 
 # botfuel-sample-starter
 
