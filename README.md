@@ -7,7 +7,7 @@
       startOpen: true,
       startFullScreen: false
     });
-
+/script>
 
 # botfuel-sample-starter
 
